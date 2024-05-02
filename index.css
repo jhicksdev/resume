@@ -1,0 +1,117 @@
+#view {
+  max-width: 8.5in;
+  margin: 0 auto 0 auto;
+}
+
+#profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 16px;
+}
+
+#profile-text-wrapper {
+  flex-direction: column;
+}
+
+#profile-name {
+  margin: 0;
+  font-size: 200%;
+}
+
+#profile-occupation {
+  margin: 4px 4px 12px 4px;
+}
+
+#profile-phone {
+  margin: 4px;
+}
+
+#profile-phone a {
+  text-decoration: none;
+}
+
+#profile-phone a:hover {
+  color: rgb(255, 200, 0);
+}
+
+#profile-email {
+  margin: 4px;
+}
+
+#profile-email a {
+  text-decoration: none;
+}
+
+#profile-email a:hover {
+  color: rgb(255, 200, 0);
+}
+
+#profile-github {
+  margin: 4px;
+}
+
+#profile-github a {
+  text-decoration: none;
+}
+
+#profile-github a:hover {
+  color: rgb(255, 200, 0);
+}
+
+.section-wrapper {
+  padding: 0 16px 0 16px;
+}
+
+.company-image,
+.school-image {
+  margin: 24px 0 24px 0;
+}
+
+.employment-summary,
+.school-summary {
+  margin: 0;
+}
+
+.employment-duration {
+  margin-top: 8px;
+}
+
+.school-summary {
+  margin-bottom: 0;
+}
+
+.school-duration {
+  margin-top: 8px;
+}
+
+#profile-phone i,
+#profile-email i,
+#profile-github i {
+  margin-right: 4px;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.25);
+  margin: 0;
+  border-style: solid;
+  border-width: 0.25px;
+}
+
+li {
+  margin: 8px 0 8px 0;
+}
+
+h2 {
+  margin: 0 16px 8px 8px;
+}
+
+section {
+  margin: 32px 0 32px 0;
+}
