@@ -1,100 +1,67 @@
-#view {
+.resume {
   max-width: 8.5in;
   margin: 0 auto 0 auto;
 }
-
-#profile-wrapper {
+.resume .profile {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-#profile-image {
+.resume .profile img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin: 16px;
 }
-
-#profile-text-wrapper {
+.resume .profile div {
   flex-direction: column;
 }
-
-#profile-name {
+.resume .profile div .name {
   margin: 0;
   font-size: 200%;
 }
-
-#profile-occupation {
+.resume .profile div .occupation {
   margin: 4px 4px 12px 4px;
 }
-
-#profile-phone {
+.resume .profile div .phone,
+.resume .profile div .email,
+.resume .profile div .github {
   margin: 4px;
 }
-
-#profile-phone a {
+.resume .profile div .phone a,
+.resume .profile div .email a,
+.resume .profile div .github a {
   text-decoration: none;
+  color: black;
 }
-
-#profile-phone a:hover {
+.resume .profile div .phone a:hover,
+.resume .profile div .email a:hover,
+.resume .profile div .github a:hover {
   color: rgb(255, 200, 0);
 }
-
-#profile-email {
-  margin: 4px;
+.resume section {
+  margin: 32px 0 32px 0;
 }
-
-#profile-email a {
-  text-decoration: none;
-}
-
-#profile-email a:hover {
-  color: rgb(255, 200, 0);
-}
-
-#profile-github {
-  margin: 4px;
-}
-
-#profile-github a {
-  text-decoration: none;
-}
-
-#profile-github a:hover {
-  color: rgb(255, 200, 0);
-}
-
-.section-wrapper {
-  padding: 0 16px 0 16px;
-}
-
-.company-image,
-.school-image {
+.resume .employment-history img,
+.resume .education img {
   margin: 24px 0 24px 0;
 }
-
-.employment-summary,
-.school-summary {
+.resume .employment-history .summary,
+.resume .education .summary {
   margin: 0;
 }
-
-.employment-duration {
+.resume .employment-history .summary a,
+.resume .education .summary a {
+  text-decoration: none;
+  color: black;
+}
+.resume .employment-history .summary a:hover,
+.resume .education .summary a:hover {
+  color: rgb(255, 200, 0);
+}
+.resume .employment-history .duration,
+.resume .education .duration {
   margin-top: 8px;
-}
-
-.school-summary {
-  margin-bottom: 0;
-}
-
-.school-duration {
-  margin-top: 8px;
-}
-
-#profile-phone i,
-#profile-email i,
-#profile-github i {
-  margin-right: 4px;
 }
 
 hr {
@@ -112,6 +79,4 @@ h2 {
   margin: 0 16px 8px 8px;
 }
 
-section {
-  margin: 32px 0 32px 0;
-}
+/*# sourceMappingURL=index.css.map */
