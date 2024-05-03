@@ -9,7 +9,7 @@ const data: ResumeData = {
     phone: "330-968-7177",
     email: "jhicksdev@gmail.com",
     github: "jhicksdev",
-    image: "images/me.jpg",
+    image: "images/20240503_182840.jpg",
   },
   skillTexts: [
     "Experienced in writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming.",
