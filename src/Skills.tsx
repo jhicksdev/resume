@@ -6,6 +6,7 @@ export default function Skills(props: { texts: string[] }) {
   const { texts } = props;
   return (
     <Section className="skills" label="Skills" icon={faScrewdriverWrench}>
+      <p>Experienced in:</p>
       <ul>
         {texts.map((text) => (
           <li>{text}</li>

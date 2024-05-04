@@ -12,11 +12,11 @@ const data: ResumeData = {
     image: "images/20240503_182840.jpg",
   },
   skillTexts: [
-    "Experienced in writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming.",
-    "Experienced in writing automation scripts to streamline tasks by reading, parsing, and writing data in various formats such as CSV, JSON, YAML, and TOML, improving efficiency and productivity.",
-    "Experienced in SQL for database management, including querying data, designing databases and tables, and inserting data, ensuring effective data organization and retrieval.",
-    "Experienced in utilizing various Linux distributions such as Ubuntu, Debian, Fedora, Arch, and openSUSE, demonstrating expertise in system administration, shell scripting, and software development in Linux environments.",
-    "Experienced in Adobe Illustrator for graphic design tasks, including creating logos, posters, and other visual assets, showcasing creativity and attention to detail.",
+    "Writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming.",
+    "Creating automation scripts to streamline tasks by reading, parsing, and writing data in various formats such as CSV, JSON, YAML, and TOML, improving efficiency and productivity.",
+    "SQL for database management, including querying data, designing databases and tables, and inserting data, ensuring effective data organization and retrieval.",
+    "Utilizing various Linux distributions such as Ubuntu, Debian, Fedora, Arch, and openSUSE, demonstrating expertise in system administration, shell scripting, and software development in Linux environments.",
+    "Adobe Illustrator for graphic design tasks, including creating logos, posters, and other visual assets, showcasing creativity and attention to detail.",
   ],
   employmentHistoryData: {
     employments: [
