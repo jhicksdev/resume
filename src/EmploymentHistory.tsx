@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
-import { faHandshake } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar, faHandshake } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type EmploymentHistoryData = {
   employments: {
@@ -42,7 +43,8 @@ function EmploymentHistory(data: EmploymentHistoryData) {
             | <strong>{employment.company.location}</strong> | <em>{employment.position}</em>
           </p>
           <p className="duration">
-            📅 {employment.duration.start.month} {employment.duration.start.year} → {employment.duration.end ? `${employment.duration.end.month} ${employment.duration.end.year}` : "Present"}
+            <FontAwesomeIcon icon={faCalendar} style={{ marginRight: "8px" }} />
+            {employment.duration.start.month} {employment.duration.start.year} → {employment.duration.end ? `${employment.duration.end.month} ${employment.duration.end.year}` : "Present"}
           </p>
           <ul>
             {employment.skills.map((skill) => (

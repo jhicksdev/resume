@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type EducationData = {
   schools: {
@@ -40,7 +41,8 @@ function Education(data: EducationData) {
             | <strong>{school.location}</strong> | <em>{school.major}</em>
           </p>
           <p className="duration">
-            📅 {school.duration.start.month} {school.duration.start.year} → {school.duration.end ? `${school.duration.end.month} ${school.duration.end.year}` : "Present"}
+            <FontAwesomeIcon icon={faCalendar} style={{ marginRight: "8px" }} />
+            {school.duration.start.month} {school.duration.start.year} → {school.duration.end ? `${school.duration.end.month} ${school.duration.end.year}` : "Present"}
           </p>
           <ul>
             {school.awards.map((award) => (
