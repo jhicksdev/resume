@@ -1,26 +1,26 @@
 import React from "react";
-import { Profile, ProfileData } from "./Profile";
+import { Profile } from "./Profile";
 import { EmploymentHistory, EmploymentHistoryData } from "./EmploymentHistory";
 import { Education, EducationData } from "./Education";
 import Skills from "./Skills";
 
-type ResumeData = {
-  profileData: ProfileData;
-  skillTexts: string[];
-  employmentHistoryData: EmploymentHistoryData;
-  educationData: EducationData;
+type Resume = {
+  profile: Profile;
+  skills: string[];
+  employmentHistory: EmploymentHistoryData;
+  education: EducationData;
 };
 
-function Resume(data: ResumeData) {
-  const { profileData, skillTexts, employmentHistoryData, educationData } = data;
+function Resume(data: Resume) {
+  const { education, profile, employmentHistory, skills } = data;
   return (
     <div className="resume">
-      <Profile {...profileData} />
-      <Skills texts={skillTexts} />
-      <EmploymentHistory {...employmentHistoryData} />
-      <Education {...educationData} />
+      <Profile {...profile} />
+      <Skills texts={skills} />
+      <EmploymentHistory {...employmentHistory} />
+      <Education {...education} />
     </div>
   );
 }
 
-export { Resume, ResumeData };
+export { Resume };

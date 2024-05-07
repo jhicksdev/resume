@@ -15,6 +15,6 @@
     "sass": "^1.76.0"
   },
   "scripts": {
-    "build": "esbuild src/index.tsx --bundle --minify --outfile=index.min.js && sass src/index.scss index.css"
+    "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=index.min.js && sass src/index.scss index.css"
   }
 }

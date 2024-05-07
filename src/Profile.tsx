@@ -3,7 +3,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-type ProfileData = {
+type Profile = {
   name: string;
   occupation: string;
   phone: string;
@@ -12,7 +12,7 @@ type ProfileData = {
   image: string;
 };
 
-function Profile(data: ProfileData) {
+function Profile(data: Profile) {
   const { name, occupation, phone, email, github, image } = data;
   return (
     <div className="profile">
@@ -39,4 +39,4 @@ function Profile(data: ProfileData) {
   );
 }
 
-export { Profile, ProfileData };
+export { Profile };
