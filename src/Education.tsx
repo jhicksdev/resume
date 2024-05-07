@@ -2,6 +2,8 @@ import React from "react";
 import Section from "./Section";
 import { faCalendar, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Duration } from "./Duration";
+import { Month } from "./Month";
 
 type EducationData = {
   schools: {
@@ -13,16 +15,7 @@ type EducationData = {
     };
     website: string;
     major: string;
-    duration: {
-      start: {
-        month: string;
-        year: number;
-      };
-      end?: {
-        month: string;
-        year: number;
-      };
-    };
+    duration: Duration;
     awards: string[];
   }[];
 };
@@ -42,7 +35,7 @@ function Education(data: EducationData) {
           </p>
           <p className="duration">
             <FontAwesomeIcon icon={faCalendar} style={{ marginRight: "8px" }} />
-            {school.duration.start.month} {school.duration.start.year} → {school.duration.end ? `${school.duration.end.month} ${school.duration.end.year}` : "Present"}
+            {Month[school.duration.start.monthIndex]} {school.duration.start.year} → {school.duration.end ? `${Month[school.duration.end.monthIndex]} ${school.duration.end.year}` : "Present"}
           </p>
           <ul>
             {school.awards.map((award) => (

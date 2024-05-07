@@ -5,11 +5,11 @@
         "awards": ["Earned certifications in Java & C++ programming.", "Have been recognized on the President's and Dean's lists."],
         "duration": {
           "end": {
-            "month": "SEP",
+            "monthIndex": 8,
             "year": 2022
           },
           "start": {
-            "month": "JAN",
+            "monthIndex": 0,
             "year": 2021
           }
         },
@@ -26,7 +26,7 @@
         "awards": ["Have been recognized on the Dean's list."],
         "duration": {
           "start": {
-            "month": "AUG",
+            "monthIndex": 7,
             "year": 2023
           }
         },
@@ -55,11 +55,11 @@
         },
         "duration": {
           "end": {
-            "month": "JUL",
+            "monthIndex": 6,
             "year": 2023
           },
           "start": {
-            "month": "AUG",
+            "monthIndex": 7,
             "year": 2022
           }
         },
@@ -78,11 +78,11 @@
         },
         "duration": {
           "end": {
-            "month": "JAN",
+            "monthIndex": 0,
             "year": 2024
           },
           "start": {
-            "month": "AUG",
+            "monthIndex": 7,
             "year": 2019
           }
         },
@@ -100,10 +100,10 @@
     "phone": "330-968-7177"
   },
   "skills": [
-    "Adobe Illustrator for graphic design tasks, including creating logos, posters, and other visual assets, showcasing creativity and attention to detail.",
+    "Writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming.",
     "Creating automation scripts to streamline tasks by reading, parsing, and writing data in various formats such as CSV, JSON, YAML, and TOML, improving efficiency and productivity.",
     "SQL for database management, including querying data, designing databases and tables, and inserting data, ensuring effective data organization and retrieval.",
     "Utilizing various Linux distributions such as Ubuntu, Debian, Fedora, Arch, and openSUSE, demonstrating expertise in system administration, shell scripting, and software development in Linux environments.",
-    "Writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming."
+    "Adobe Illustrator for graphic design tasks, including creating logos, posters, and other visual assets, showcasing creativity and attention to detail."
   ]
 }
