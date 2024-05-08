@@ -64,7 +64,7 @@
           }
         },
         "position": "Medical records clerk",
-        "skills": ["Deconstructed medical charts in preparation for digital scanning.", "Organized, named, and linked records to patient profiles.", "Uploaded digitally scanned records to centralized web-based platform."]
+        "skills": ["Deconstructed medical charts in preparation for digital scanning.", "Uploaded digitally scanned records to centralized web-based platform.", "Organized, named, and linked records to patient profiles."]
       },
       {
         "company": {
@@ -87,7 +87,7 @@
           }
         },
         "position": "Light assembly tech",
-        "skills": ["Assembled and packaged products in preparation for shipment.", "Fabricated and prepared components for final products."]
+        "skills": ["Fabricated and prepared components for final products.", "Assembled and packaged products in preparation for shipment."]
       }
     ]
   },

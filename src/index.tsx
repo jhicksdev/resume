@@ -4,12 +4,30 @@ import { Resume } from "./Resume";
 import data from "./data.json";
 
 data.employmentHistory.employments.sort((a, b) => {
-  return new Date(b.duration.end.year, b.duration.end.monthIndex).getTime() - new Date(a.duration.end.year, a.duration.end.monthIndex).getTime();
+  const ae = a.duration.end;
+  const be = b.duration.end;
+
+  if (ae && be) {
+    const at = new Date(ae.year, ae.monthIndex).getTime();
+    const bt = new Date(be.year, be.monthIndex).getTime();
+    return at + bt;
+  }
+
+  if (!ae) return -1;
+  return 1;
 });
 
 data.education.schools.sort((a, b) => {
-  if (a.duration.end && b.duration.end) return new Date(b.duration.end.year, b.duration.end.monthIndex).getTime() - new Date(a.duration.end.year, a.duration.end.monthIndex).getTime();
-  if (!a.duration.end) return -1;
+  const ae = a.duration.end;
+  const be = b.duration.end;
+
+  if (ae && be) {
+    const at = new Date(ae.year, ae.monthIndex).getTime();
+    const bt = new Date(be.year, be.monthIndex).getTime();
+    return at + bt;
+  }
+
+  if (!ae) return -1;
   return 1;
 });
 
