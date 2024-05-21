@@ -106,6 +106,10 @@ body {
 					i {
 						@apply mr-1;
 					}
+
+					a {
+						@apply hoverable-anchor;
+					}
 				}
 			}
 		}
@@ -180,5 +184,5 @@ ul {
 }
 
 .hoverable-anchor {
-	@apply no-underline text-black hover:text-amber-400;
+	@apply no-underline text-black hover:text-amber-400 transition duration-100;
 }
