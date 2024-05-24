@@ -1,75 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .roboto-thin {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .roboto-light {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .roboto-regular {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .roboto-medium {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .roboto-bold {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .roboto-black {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .roboto-thin-italic {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .roboto-light-italic {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .roboto-regular-italic {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .roboto-medium-italic {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .roboto-bold-italic {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .roboto-black-italic {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 @tailwind base;
@@ -77,112 +77,112 @@
 @tailwind utilities;
 
 body {
-	@apply my-4 roboto-light;
+  @apply my-4 roboto-light;
 
-	.resume {
-		@apply max-w-4xl mx-auto;
+  .resume {
+    @apply max-w-4xl mx-auto;
 
-		.profile {
-			@apply flex items-center justify-center;
+    .profile {
+      @apply flex items-center justify-center;
 
-			img {
-				@apply size-36 rounded-full m-4;
-			}
+      img {
+        @apply size-36 rounded-full m-4;
+      }
 
-			.info {
-				@apply flex-col;
+      .info {
+        @apply flex-col;
 
-				.name {
-					@apply m-0 text-3xl roboto-bold;
-				}
+        .name {
+          @apply m-0 text-3xl roboto-bold;
+        }
 
-				.phone {
-					@apply mt-1;
-				}
+        .phone {
+          @apply mt-1;
+        }
 
-				.phone,
-				.email,
-				.github {
-					i {
-						@apply mr-1;
-					}
+        .phone,
+        .email,
+        .github {
+          i {
+            @apply mr-1;
+          }
 
-					a {
-						@apply hoverable-anchor;
-					}
-				}
-			}
-		}
+          a {
+            @apply hoverable-anchor;
+          }
+        }
+      }
+    }
 
-		section {
-			@apply mx-0 my-8;
+    section {
+      @apply mx-0 my-8;
 
-			h2 {
-				@apply text-2xl roboto-bold;
-			}
+      h2 {
+        @apply text-2xl roboto-bold;
+      }
 
-			hr {
-				@apply my-2 mb-4;
-			}
+      hr {
+        @apply my-2 mb-4;
+      }
 
-			.wrapper {
-				@apply px-8;
-			}
+      .wrapper {
+        @apply px-8;
+      }
 
-			&:not(:first-child) {
-				@apply mt-16;
-			}
-		}
+      &:not(:first-child) {
+        @apply mt-16;
+      }
+    }
 
-		.skills {
-			.wrapper {
-				p {
-					@apply my-2;
-				}
-			}
-		}
+    .skills {
+      .wrapper {
+        p {
+          @apply my-2;
+        }
+      }
+    }
 
-		.employment-history,
-		.education {
-			.instance {
-				img {
-					@apply my-6;
-				}
+    .employment-history,
+    .education {
+      .instance {
+        img {
+          @apply my-6;
+        }
 
-				.info {
-					@apply my-2;
+        .info {
+          @apply my-2;
 
-					a {
-						@apply hoverable-anchor;
-					}
-				}
+          a {
+            @apply hoverable-anchor;
+          }
+        }
 
-				.duration {
-					@apply my-2;
+        .duration {
+          @apply my-2;
 
-					i {
-						@apply mr-1;
-					}
-				}
+          i {
+            @apply mr-1;
+          }
+        }
 
-				&:not(:last-child) {
-					@apply mb-12;
-				}
-			}
-		}
-	}
+        &:not(:last-child) {
+          @apply mb-12;
+        }
+      }
+    }
+  }
 }
 
 ul {
-	@apply px-8 list-disc;
+  @apply px-8 list-disc;
 
-	li {
-		&:not(:last-child) {
-			@apply mb-2;
-		}
-	}
+  li {
+    &:not(:last-child) {
+      @apply mb-2;
+    }
+  }
 }
 
 .hoverable-anchor {
-	@apply no-underline text-black hover:text-amber-400 transition duration-100;
+  @apply no-underline text-black hover:text-amber-400 transition duration-100;
 }

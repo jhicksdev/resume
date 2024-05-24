@@ -1,144 +1,144 @@
 {
-	"profile": {
-		"image": {
-			"src": "Profile.jpg"
-		},
-		"name": {
-			"first": "Joseph",
-			"last": "Hicks"
-		},
-		"occupation": {
-			"title": "Software Developer"
-		},
-		"phone": {
-			"number": "330-968-7177"
-		},
-		"email": {
-			"address": "jhicksdev@gmail.com"
-		},
-		"github": {
-			"username": "jhicksdev"
-		}
-	},
-	"skills": [
-		"Writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, PHP, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming.",
-		"Creating automation scripts to streamline tasks by reading, parsing, and writing data in various formats such as CSV, JSON, YAML, and TOML, improving efficiency and productivity.",
-		"SQL for database management, including querying data, designing databases and tables, and inserting data, ensuring effective data organization and retrieval.",
-		"Utilizing various Linux distributions such as Ubuntu, Debian, Fedora, Arch, and openSUSE, demonstrating expertise in system administration, shell scripting, and software development in Linux environments.",
-		"Adobe Illustrator for graphic design tasks, including creating logos, posters, and other visual assets, showcasing creativity and attention to detail."
-	],
-	"employmentHistory": {
-		"employments": [
-			{
-				"company": {
-					"image": {
-						"src": "TKM.svg",
-						"width": 160
-					},
-					"name": "TKM Print Solutions, Inc.",
-					"url": "https://www.discovertkm.com/",
-					"location": {
-						"city": "Green",
-						"state": "OH"
-					}
-				},
-				"position": "Light assembly tech",
-				"duration": {
-					"start": {
-						"month": "AUG",
-						"year": 2019
-					},
-					"end": {
-						"month": "JAN",
-						"year": 2024
-					}
-				},
-				"skills": [
-					"Fabricated and prepared components for final products.",
-					"Assembled and packaged products in preparation for shipment."
-				]
-			},
-			{
-				"company": {
-					"image": {
-						"src": "RGI.svg",
-						"width": 200
-					},
-					"name": "Reproductive Gynecology & Infertility",
-					"url": "https://www.rgiohio.com/",
-					"location": {
-						"city": "Akron",
-						"state": "OH"
-					}
-				},
-				"position": "Medical records clerk",
-				"duration": {
-					"start": {
-						"month": "AUG",
-						"year": 2022
-					},
-					"end": {
-						"month": "JUL",
-						"year": 2023
-					}
-				},
-				"skills": [
-					"Deconstructed medical charts in preparation for digital scanning.",
-					"Uploaded digitally scanned records to centralized web-based platform.",
-					"Organized, named, and linked records to patient profiles."
-				]
-			}
-		]
-	},
-	"education": {
-		"institutions": [
-			{
-				"image": {
-					"src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Jamestown_Community_College.svg",
-					"width": 160
-				},
-				"name": "Jamestown Community College",
-				"url": "https://www.sunyjcc.edu/",
-				"location": {
-					"city": "Jamestown",
-					"state": "NY"
-				},
-				"major": "Computer Science",
-				"duration": {
-					"start": {
-						"month": "AUG",
-						"year": 2023
-					}
-				},
-				"awards": ["Have been recognized on the Dean's list."]
-			},
-			{
-				"image": {
-					"src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Stark_State_logo_2016.svg",
-					"width": 160
-				},
-				"name": "Stark State College",
-				"url": "https://www.starkstate.edu/",
-				"location": {
-					"city": "Canton",
-					"state": "OH"
-				},
-				"major": "Computer Science",
-				"duration": {
-					"start": {
-						"month": "JAN",
-						"year": 2021
-					},
-					"end": {
-						"month": "SEP",
-						"year": 2022
-					}
-				},
-				"awards": [
-					"Earned certifications in Java & C++ programming.",
-					"Have been recognized on the President's and Dean's lists."
-				]
-			}
-		]
-	}
+  "profile": {
+    "image": {
+      "src": "Profile.jpg"
+    },
+    "name": {
+      "first": "Joseph",
+      "last": "Hicks"
+    },
+    "occupation": {
+      "title": "Software Developer"
+    },
+    "phone": {
+      "number": "330-968-7177"
+    },
+    "email": {
+      "address": "jhicksdev@gmail.com"
+    },
+    "github": {
+      "username": "jhicksdev"
+    }
+  },
+  "skills": [
+    "Writing code in multiple programming languages including HTML/CSS, JavaScript, TypeScript, Python, PHP, SQL, Java, C, C++, C#, Go, and Rust, with a focus on web development, automation, and systems programming.",
+    "Creating automation scripts to streamline tasks by reading, parsing, and writing data in various formats such as CSV, JSON, YAML, and TOML, improving efficiency and productivity.",
+    "SQL for database management, including querying data, designing databases and tables, and inserting data, ensuring effective data organization and retrieval.",
+    "Utilizing various Linux distributions such as Ubuntu, Debian, Fedora, Arch, and openSUSE, demonstrating expertise in system administration, shell scripting, and software development in Linux environments.",
+    "Adobe Illustrator for graphic design tasks, including creating logos, posters, and other visual assets, showcasing creativity and attention to detail."
+  ],
+  "employmentHistory": {
+    "employments": [
+      {
+        "company": {
+          "image": {
+            "src": "TKM.svg",
+            "width": 160
+          },
+          "name": "TKM Print Solutions, Inc.",
+          "url": "https://www.discovertkm.com/",
+          "location": {
+            "city": "Green",
+            "state": "OH"
+          }
+        },
+        "position": "Light assembly tech",
+        "duration": {
+          "start": {
+            "month": "AUG",
+            "year": 2019
+          },
+          "end": {
+            "month": "JAN",
+            "year": 2024
+          }
+        },
+        "skills": [
+          "Fabricated and prepared components for final products.",
+          "Assembled and packaged products in preparation for shipment."
+        ]
+      },
+      {
+        "company": {
+          "image": {
+            "src": "RGI.svg",
+            "width": 200
+          },
+          "name": "Reproductive Gynecology & Infertility",
+          "url": "https://www.rgiohio.com/",
+          "location": {
+            "city": "Akron",
+            "state": "OH"
+          }
+        },
+        "position": "Medical records clerk",
+        "duration": {
+          "start": {
+            "month": "AUG",
+            "year": 2022
+          },
+          "end": {
+            "month": "JUL",
+            "year": 2023
+          }
+        },
+        "skills": [
+          "Deconstructed medical charts in preparation for digital scanning.",
+          "Uploaded digitally scanned records to centralized web-based platform.",
+          "Organized, named, and linked records to patient profiles."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "institutions": [
+      {
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Jamestown_Community_College.svg",
+          "width": 160
+        },
+        "name": "Jamestown Community College",
+        "url": "https://www.sunyjcc.edu/",
+        "location": {
+          "city": "Jamestown",
+          "state": "NY"
+        },
+        "major": "Computer Science",
+        "duration": {
+          "start": {
+            "month": "AUG",
+            "year": 2023
+          }
+        },
+        "awards": ["Have been recognized on the Dean's list."]
+      },
+      {
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Stark_State_logo_2016.svg",
+          "width": 160
+        },
+        "name": "Stark State College",
+        "url": "https://www.starkstate.edu/",
+        "location": {
+          "city": "Canton",
+          "state": "OH"
+        },
+        "major": "Computer Science",
+        "duration": {
+          "start": {
+            "month": "JAN",
+            "year": 2021
+          },
+          "end": {
+            "month": "SEP",
+            "year": 2022
+          }
+        },
+        "awards": [
+          "Earned certifications in Java & C++ programming.",
+          "Have been recognized on the President's and Dean's lists."
+        ]
+      }
+    ]
+  }
 }
